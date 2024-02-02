@@ -1,2 +1,2 @@
 # Spotify-Clone
-Developing a Spotify clone utilizing HTML, CSS, and JavaScript, drawing inspiration from CodeWithHarry's tutorials, with a focus on professional implementation and best practices.
+This project is in the development phase, and during this period, regular updates will be provided with new commits added daily to enhance the project's functionality and maintain its progress. The development process follows a professional approach with a focus on implementation best practices.
