@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img class="invert" src="img/logo.svg" alt="" />
+          </div>
+          <ul>
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li>
+              <img class="invert" src="img/search.svg" alt="search" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="img/playlist.svg" alt="" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="
+                fill: rgba(255, 255, 255, 1);
+                transform: rotate(180deg);
+                msfilter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+              "
+            >
+              <circle cx="12" cy="12" r="12" fill="#0A0A0A" />
+              <path
+                d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: rgba(255, 255, 255, 1); transform: 0; msfilter: "
+            >
+              <circle cx="12" cy="12" r="12" fill="#0A0A0A" />
+              <path
+                d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+              ></path>
+            </svg>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign Up</button>
+            <button class="loginbtn">Log In</button>
+          </div>
+        </div>
+        <div class="spotifyPlaysists">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            <div class="card">
+              <img src="ab67706c0000da846095c2c74ef1565a5dbc317b.jpeg" alt="" />
+              <h2>Miles Moralis</h2>
+              <p>Hits to boost your mood and fill you with happiness</p>
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <!-- Green circle background -->
+                <circle cx="12" cy="12" r="11" fill="#1FDF64" />
+                <!-- Icon -->
+                <svg
+                  x="4.5"
+                  y="4.5"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                  />
+                </svg>
+              </svg>
+            </div>
+            <div class="card">
+              <img src="songs/Bright_(mood)/cover.jpg" alt="" />
+              <h2>Sonic Boosts</h2>
+              <p>Hits to boost your mood and fill you with happiness</p>
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <!-- Green circle background -->
+                <circle cx="12" cy="12" r="11" fill="#1FDF64" />
+                <!-- Icon -->
+                <svg
+                  x="4.5"
+                  y="4.5"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                  />
+                </svg>
+              </svg>
+            </div>
+            <div class="card">
+              <img src="songs/Dark_(mood)/cover.jpg" alt="" />
+              <h2>Miles Moralis</h2>
+              <p>Hits to boost your mood and fill you with happiness</p>
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <!-- Green circle background -->
+                <circle cx="12" cy="12" r="11" fill="#1FDF64" />
+                <!-- Icon -->
+                <svg
+                  x="4.5"
+                  y="4.5"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                  />
+                </svg>
+              </svg>
+            </div>
+          </div>
+
+          <div class="playbar">
+            <div class="songinfo ">
+              
+            </div>
+            <div class="songbuttons">
+              <img src="img/prevsong.svg" alt="" />
+              <img src="img/play.svg" alt="" />
+              <img src="img/nextsong.svg" alt="" />
+            </div>
+            <div class="songtime">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
